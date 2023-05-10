@@ -25,14 +25,14 @@ public class VerificaObrigacoesAtual {
         System.out.printf("DISPÊNDOS DE P&D, conf inc VI do § 1º do art 5º do Decreto 10.521/2020: %.2f\n", DispendiosIncVI);
 
         if (DispendiosIncI >= ObrigacaoIncI) {
-            System.out.println("Empresa adimplente conforme Inciso I do Decreto 10.521/2020 - Forma Atual!");
+            System.out.println("Empresa adimplente conf inc I do § 1º do art 5º do Decreto 10.521/2020 - Forma Atual!");
         }
-        else System.out.println("Empresa inadimplente conforme Inciso I do Decreto 10.521/2020 - Forma Atual!");
+        else System.out.println("Empresa inadimplente conf inc I do § 1º do art 5º do Decreto 10.521/2020 - Forma Atual!");
 
         if (DispendiosIncVI >= ObrigacaoIncVI) {
-            System.out.println("Empresa adimplente conforme Inciso VI do Decreto 10.521/2020 - Forma Atual!");
+            System.out.println("Empresa adimplente conf inc VI do § 1º do art 5º do Decreto 10.521/2020 - Forma Atual!");
         }
-        else System.out.println("Empresa inadimplente conforme Inciso VI do Decreto 10.521/2020 - Forma Atual!");
+        else System.out.println("Empresa inadimplente conf inc VI do § 1º do art 5º do Decreto 10.521/2020 - Forma Atual!");
 
 
     }
