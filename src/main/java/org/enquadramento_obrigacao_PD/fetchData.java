@@ -8,7 +8,7 @@ import java.util.List;
 
 public class fetchData {
     static List<Double> exec(String fileName) {
-        String filePath = "/media/enionsouza/Data/Estudo/Projetos/Java/POC_EnquadramentoObrigacaoPD/src/main/resources/" + fileName + ".txt";
+        String filePath = "./src/main/resources/" + fileName + ".txt";
         List<Double> fetchedData = new ArrayList<>();
         try {
             FileReader srcData = new FileReader(filePath);
